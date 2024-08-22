@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo HTML</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,
+        td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+   <section id="1.Estructura">
+      <h1>1. Estructura Básica del Documento HTML</h1>
+      <p>
+      Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título
+      </p>   
+   </section>
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <p>
+            <b>Esto es un texto en negrita.</b><br>
+            <em>Esto es un texto en cursiva.</em><br>
+            <mark>Esto es un texto subrayado.</mark>
+        </p>
+    </section>    
+    <section>
+        <h3>3. Divisiones y Agrupación de Contenido</h3>
+        <div><b>Sección 1</b></div>
+        <div><p>Contenido de la primera sección agrupada en un div.</p></div>
+        <div><b>Sección 2</b></div>
+        <div><p>Contenido de la segunda sección agrupada en un div.</p></div>
+    </section>
+    <section>
+        <h4>4. Enlaces y Listas</h4>
+        <p>Visita nuestro <a href="https://www.google.com.ar/webhp?gl=ar" target="_blank">sitio web</a> para más información.</p>
+    
+     <div>
+        <p>Enlaces Internos:</p>
+        <nav>
+            <ul>
+                <li><a href="#1.Estructura">Estructura</a></li>
+                <li><a href="#5.Multimedia">Multimedia</a></li>
+                <li><a href="#7.Formularios">Formularios</a></li>
+            </ul>
+        </nav>
+     </div>
+     <div>
+        <p>Lista desordenada:</p></  br>
+        <ul>
+            <li>Primer ítem de una lista desordenada.</li>
+            <li>Segundo ítem de una lista desordenada.</li>
+        </ul>
+     </div>
+     <div>
+        <p>Lista ordenada:</p></  br>
+        <ol>
+            <li>Primer ítem de una lista ordenada.</li>
+            <li>Segundo ítem de una lista ordenada.</li>
+        </ol>
+     </div>
+    </section>
+    <section id="5.Multimedia">
+        <h5>5. Elementos Multimedia</h5>
+        <img src="https://static.vecteezy.com/system/resources/previews/022/721/557/non_2x/google-logo-for-search-site-free-png.png" 
+        width="200px"
+        height="150px"
+        alt="Es una imagen"><br>
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/F22DvfhKn2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+        <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls autoplay></audio>
+    </section>
+    <section>
+        <h6>6. Tablas</h6>
+        <table>
+            <thead>
+                <tr>
+                    <th>Columna 1</th>
+                    <th>Columna 2</th>
+                    <th>Columna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+                <tr>
+                    <td>Dato 7</td>
+                    <td>Dato 8</td>
+                    <td>Dato 9</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="7.Formularios">
+        <h3>7. Formularios</h3>
+    
+        <form>
+            
+            <label>Email</label>
+            <input type="email" placeholder="example@ejemplo.com"/><br>
+            <label>Nombre</label>
+            <input type="text" placeholder="Ingrese su Nombre"/><br>
+            <label>Mensaje</label>
+            <textarea placeholder="mensaje"></textarea>
+
+            <button type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+</body>
+
+</html>
